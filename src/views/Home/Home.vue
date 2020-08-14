@@ -13,8 +13,10 @@
                       </router-link>
                     </li>
                     <li>
+                        <router-link to='/chan' >
                         <p>产品</p>
                         <span>Prducts</span>
+                           </router-link>
                     </li>
                     <li>
                         <p>服务</p>

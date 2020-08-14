@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home/Home.vue'
 import log from '../views/log/index.vue'
 import nav from '../views/nva/nva.vue'
+import chan from '../views/chan_pin/Prducts.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -13,11 +14,17 @@ const routes = [
 
   // 一级路由
   {
+    // 导航
     path: '/nva',
     name: 'nav',
     component: nav
   },
-
+  // 产品
+  {
+    path: '/chan',
+    // name: 'chan',
+    component: chan
+  },
   {
     path: '/home',
     name: 'Home',
