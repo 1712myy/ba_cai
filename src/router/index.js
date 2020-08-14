@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home/Home.vue'
 import log from '../views/log/index.vue'
+import nav from '../views/nva/nva.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -11,6 +12,11 @@ const routes = [
   },
 
   // 一级路由
+  {
+    path: '/nva',
+    name: 'nav',
+    component: nav
+  },
 
   {
     path: '/home',
